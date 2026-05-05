@@ -11,4 +11,14 @@ Python IDE
 
 ### NATURAL SAMPLING:
 
-### FLAT-TOP SAMPLING::
+### FLAT-TOP SAMPLING:
+
+### OUTPUT WAVEFORM:
+#### IDEAL SAMPLING:
+
+#### NATURAL SAMPLING:
+
+#### FLAT-TOP SAMPLING:
+
+### RESULT:
+Thus, the construction and reconstruction of Ideal, Natural and Flat-top sampling were successfully implemented using Python, and the corresponding waveforms were obtained.
