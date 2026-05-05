@@ -1,11 +1,11 @@
-# Ex1-Ideal-Sampling
-### AIM:
+# Ex1 : Ideal Sampling, Natural Sampling and Flat-top Sampling
+## AIM:
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 
-### TOOLS REQUIRED:
+## TOOLS REQUIRED:
 Python IDE
 
-### PROGRAM:
+## PROGRAM:
 
 #### IDEAL SAMPLING:
 
@@ -13,12 +13,12 @@ Python IDE
 
 #### FLAT-TOP SAMPLING:
 
-### OUTPUT WAVEFORM:
+## OUTPUT WAVEFORM:
 #### IDEAL SAMPLING:
 
 #### NATURAL SAMPLING:
 
 #### FLAT-TOP SAMPLING:
 
-### RESULT:
+## RESULT:
 Thus, the construction and reconstruction of Ideal, Natural and Flat-top sampling were successfully implemented using Python, and the corresponding waveforms were obtained.
