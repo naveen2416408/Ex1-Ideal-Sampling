@@ -9,6 +9,7 @@ Libraries: NumPy, Matplotlib, SciPy
 
 # Ideal Sampling (Impulse Sampling)
 
+
 1.Start
 
 2.Define the time range t
