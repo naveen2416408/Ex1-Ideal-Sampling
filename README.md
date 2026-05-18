@@ -96,7 +96,8 @@ reconstructed_signal = resample(signal_sampled, len(t))
 
 # Create subplots
 plt.figure(figsize=(12, 8))
-
+plt.suptitle("NAME : NAVEEN S\nREG NO : 212224060171", 
+             fontsize=12, fontweight='bold')
 # 1. Continuous Signal
 plt.subplot(3,1,1)
 plt.plot(t, signal, label='Continuous Signal')
@@ -177,7 +178,8 @@ def lowpass_filter(signal, cutoff, fs, order=5):
 reconstructed_signal = lowpass_filter(reconstructed_signal, 10, fs)
 
 plt.figure(figsize=(14, 10))
-
+plt.suptitle("NAME : NAVEEN S\nREG NO : 212224060171", 
+             fontsize=12, fontweight='bold')
 # Original Message Signal
 plt.subplot(4, 1, 1)
 plt.plot(t, message_signal, label='Original Message Signal')
@@ -204,7 +206,6 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
-
 ```
 # Flat-top
 ```
@@ -244,6 +245,10 @@ reconstructed_signal = lowpass_filter(flat_top_signal, cutoff_freq, fs)
 
 plt.figure(figsize=(14, 10))
 
+
+plt.suptitle("NAME : NAVEEN S\nREG NO : 212224060171", 
+             fontsize=12, fontweight='bold')
+
 plt.subplot(4, 1, 1)
 plt.plot(t, message_signal, label='Original Message Signal')
 plt.title('Original Message Signal')
@@ -282,16 +287,15 @@ plt.show()
 
 ## Ideal Sampling
 
-<img width="1189" height="790" alt="dc ideal" src="https://github.com/user-attachments/assets/a6431134-6afd-46af-a7ae-bf76285c894b" />
+<img width="1189" height="789" alt="image" src="https://github.com/user-attachments/assets/17e8fe20-7863-4e86-aeed-5d44f0906324" />
 
 ## Natural Sampling
 
-<img width="1390" height="989" alt="dc natural" src="https://github.com/user-attachments/assets/2f2c2e99-46c2-4e89-89d8-9bda85289aaa" />
-
+<img width="1390" height="985" alt="image" src="https://github.com/user-attachments/assets/b8feeb8c-72be-423e-bcee-702d4a3ebd7d" />
 
 ## Flat-top Sampling
 
-<img width="1398" height="990" alt="dc flat" src="https://github.com/user-attachments/assets/fdba9be6-bd39-4e8a-9a54-e7c2428204f1" />
+<img width="1398" height="985" alt="image" src="https://github.com/user-attachments/assets/0c0d3d0e-4b5f-4a6b-a096-eac915d6756f" />
 
 
 
